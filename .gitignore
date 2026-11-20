@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Large or regenerable data (scripts recreate these)
+data/raw/*
+data/interim/*
+data/processed/*
+!data/**/.gitkeep
+
+# Allow small, important raw files to be committed if we decide to
+!data/raw/README.md
+
+# Secrets and OS files
+.env
+*.json.key
+.DS_Store
+Thumbs.db
