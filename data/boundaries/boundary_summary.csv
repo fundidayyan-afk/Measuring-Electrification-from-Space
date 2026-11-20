@@ -1,1 +1,14 @@
-""
+survey,layer,n_regions,level_rank,names
+KE2014DHS,sdr_subnational_boundaries,8,1.0,central; coast; eastern; nairobi; north eastern; nyanza; rift valley; western
+KE2014DHS,sdr_subnational_boundaries2,47,2.0,baringo; bomet; bungoma; busia; elgeyo marakwet; embu; garissa; homa bay; isiolo; kajiado; kakamega; kericho; kiambu; kilifi; kirinyaga; kisii; kisumu; kitui; kwale; laikipia; lamu; machakos; makueni; mandera; marsabit; meru; migori; mombasa; murang'a; nairobi; nakuru; nandi; narok; nyamira; nyandarua; nyeri; samburu; siaya; taita taveta; tana river; tharaka-nithi; trans-nzoia; turkana; uasin gishu; vihiga; wajir; west pokot
+KE2022DHS,sdr_subnational_boundaries,47,1.0,Baringo; Bomet; Bungoma; Busia; Elgeyo-Marakwet; Embu; Garissa; Homa Bay; Isiolo; Kajiado; Kakamega; Kericho; Kiambu; Kilifi; Kirinyaga; Kisii; Kisumu; Kitui; Kwale; Laikipia; Lamu; Machakos; Makueni; Mandera; Marsabit; Meru; Migori; Mombasa; Murang'a; Nairobi; Nakuru; Nandi; Narok; Nyamira; Nyandarua; Nyeri; Samburu; Siaya; Taita Taveta; Tana River; Tharaka-Nithi; Trans Nzoia; Turkana; Uasin Gishu; Vihiga; Wajir; West Pokot
+TZ2015DHS,sdr_subnational_boundaries,9,1.0,Eastern; Western; Southern; Southern Highlands; South West Highlands; Central; Northern; Lake; Zanzibar
+TZ2015DHS,sdr_subnational_boundaries2,30,2.0,Dodoma; Arusha; Kilimanjaro; Tanga; Morogoro; Pwani; Dar Es Salaam; Lindi; Mtwara; Ruvuma; Iringa; Mbeya; Singida; Tabora; Rukwa; Kigoma; Shinyanga; Kagera; Mwanza; Mara; Manyara; Njombe; Katavi; Simiyu; Geita; Kaskazini Unguja; Kusini Unguja; Mjini Magharibi; Kaskazini Pemba; Kusini Pemba
+TZ2022DHS,sdr_subnational_boundaries,9,1.0,Eastern; Western; Southern; Southern Highlands; South West Highlands; Central; Northern; Lake; Zanzibar
+TZ2022DHS,sdr_subnational_boundaries2,31,2.0,Dodoma; Arusha; Kilimanjaro; Tanga; Morogoro; Pwani; Dar Es Salaam; Lindi; Mtwara; Ruvuma; Iringa; Mbeya; Singida; Tabora; Rukwa; Kigoma; Shinyanga; Kagera; Mwanza; Mara; Manyara; Njombe; Katavi; Simiyu; Geita; Kaskazini Unguja; Kusini Unguja; Mjini Magharibi; Kaskazini Pemba; Kusini Pemba; Songwe
+UG2016DHS,sdr_subnational_boundaries,15,1.0,Acholi; Ankole; Bugishu; Bukedi; Bunyoro; Busoga; Central 1; Central 2; Kampala; Karamoja; Kigezi; Lango; Teso; Tooro; West Nile
+UG2016DHS,sdr_subnational_boundaries2,10,2.0,NULL; NULL; NULL; NULL; NULL; NULL; NULL; NULL; NULL; NULL
+UG2024MIS,sdr_subnational_boundaries,15,1.0,Kampala; Buganda south; Buganda north; Busoga; Bukedi; Elgon; Teso; Lango; Acholi; Karamoja; West Nile; Bunyoro; Toro; Ankole; Kigezi
+RW2015DHS,sdr_subnational_boundaries,5,1.0,kigali city; south; west; north; east
+RW2015DHS,sdr_subnational_boundaries2,30,2.0,bugesera; burera; gakenke; gasabo; gatsibo; gicumbi; gisagara; huye; kamonyi; karongi; kayonza; kicukiro; kirehe; muhanga; musanze; ngoma; ngororero; nyabihu; nyagatare; nyamagabe; nyamasheke; nyanza; nyarugenge; nyaruguru; rubavu; ruhango; rulindo; rusizi; rutsiro; rwamagana
+RW2019DHS,sdr_subnational_boundaries,5,1.0,Kigali; South; West; North; East
