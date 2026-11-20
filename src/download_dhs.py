@@ -63,7 +63,7 @@ def summarise_surveys(df: pd.DataFrame) -> pd.DataFrame:
     ci_present = sub["CILow"].notna() & (sub["CILow"].astype(str).str.strip() != "")
     sub = sub.assign(has_ci=ci_present)
     return (
-        sub.groupby(["iso3", "SurveyId", "SurveyYearLabel", "CharacteristicCategory"])
+        sub.groupby(["iso3", "SurveyId", "SurveyType", "SurveyYearLabel", "CharacteristicCategory"])
         .agg(n_units=("CharacteristicLabel", "nunique"),
              share_with_ci=("has_ci", "mean"),
              min_value=("Value", "min"),

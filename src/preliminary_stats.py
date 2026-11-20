@@ -39,7 +39,9 @@ def main() -> None:
     # 3. DHS national vs World Bank in matching years.
     # A DHS survey labelled '2015-16' is matched to its first year; we will
     # revisit this choice (fieldwork months) in the cleaning step.
-    nat = dhs[(dhs["CharacteristicCategory"] == "Total")].copy()
+    # Standard DHS surveys only; Malaria Indicator Surveys (MIS) and others are
+    # listed in the survey table above but kept out of this comparison.
+    nat = dhs[(dhs["CharacteristicCategory"] == "Total") & (dhs["SurveyType"] == "DHS")].copy()
     nat["year"] = nat["SurveyYearLabel"].astype(str).str[:4].astype(int)
     nat = nat[["iso3", "SurveyYearLabel", "year", "Value"]].rename(columns={"Value": "dhs_access"})
     merged = nat.merge(wb[["iso3", "year", "access_total"]], on=["iso3", "year"], how="left")
