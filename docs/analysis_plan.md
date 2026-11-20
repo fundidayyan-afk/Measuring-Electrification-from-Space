@@ -7,7 +7,10 @@ This file records decisions before we see results, so the paper can show which c
 - Study countries: Kenya, Tanzania, Uganda, Rwanda.
 - Light data: VIIRS annual V2.2, `average_masked` band; 2012 partial composite excluded.
 - Three light measures per unit-year: log(1 + mean radiance), lit land share, lit population share.
-- Lit-pixel threshold: set from background pixels in large unsettled protected areas, written here before any model is run.
+- Lit-pixel threshold (fixed 2026-11-20, before any light data were pulled): take terrestrial protected areas in the four countries with IUCN category Ia, Ib or II and area over 1,000 km² (WDPA); keep VIIRS pixels there with zero WorldPop population; compute the 99th percentile of the `average` band for each year; the threshold is the highest of those yearly values. A pixel is lit if `average` exceeds it.
+- Robustness version of lit: the Earth Observation Group's own mask (`average_masked` > 0).
+- Population for 2013 and 2014 light years uses the 2015 WorldPop R2025A grid (first year available).
+- Cloud-free coverage flag: pixels with fewer than 10 cloud-free observations (`cf_cvg` < 10) are counted as low coverage.
 
 ## Open decisions (to settle with advisors)
 

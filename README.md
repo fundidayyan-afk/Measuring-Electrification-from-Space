@@ -49,7 +49,8 @@ paper/          Paper drafts
    python src/download_dhs.py
    python src/preliminary_stats.py
    ```
-3. Earth Engine steps will be added in `gee/` (requires a free Earth Engine account).
+3. Build the nighttime light measures in Google Colab (free Earth Engine account needed):
+   [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/fundidayyan-afk/Measuring-Electrification-from-Space/blob/main/notebooks/01_light_measures.ipynb)
 
 ## Status
 
