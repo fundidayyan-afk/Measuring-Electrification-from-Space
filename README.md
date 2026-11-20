@@ -9,6 +9,8 @@ Advisors: Dr. Andrew Gard (primary), Dr. Sugata Banerji (technical)
 
 Researchers often use satellite images of light at night as a stand-in for electricity access. This project tests how well that works in Kenya, Tanzania, Uganda, and Rwanda by comparing VIIRS nighttime lights against household survey measures of access (DHS) and national estimates (World Bank), and maps the places where the satellite view overstates or understates access.
 
+![DHS survey regions used in the analysis](outputs/figures/study_regions.png)
+
 ## Data
 
 | Source | What it gives us | How we get it |
@@ -53,7 +55,8 @@ paper/          Paper drafts
 
 - [x] Repository structure
 - [x] World Bank and DHS download scripts
-- [ ] Region boundaries and harmonization across survey waves
+- [x] DHS region boundaries for all eight surveys (`src/download_boundaries.py`)
+- [ ] Harmonize boundaries across survey waves
 - [ ] Earth Engine light measures
 - [ ] Models 1 to 3, prediction, robustness
 - [ ] Interactive map (GitHub Pages)
