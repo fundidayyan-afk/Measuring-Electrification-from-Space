@@ -42,6 +42,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add -f outputs/tables/preliminary_stats.md data/raw/dhs_surveys.csv data/raw/worldbank_access.csv
+          git add -f outputs/tables/preliminary_stats.md data/raw/dhs_surveys.csv data/raw/worldbank_access.csv data/raw/dhs_electricity_all.csv
           git commit -m "Update preliminary numbers from live data" || echo "No changes"
           git push
