@@ -12,6 +12,10 @@ This file records decisions before we see results, so the paper can show which c
 - Population for 2013 and 2014 light years uses the 2015 WorldPop R2025A grid (first year available).
 - Cloud-free coverage flag: pixels with fewer than 10 cloud-free observations (`cf_cvg` < 10) are counted as low coverage.
 
+## Change log
+
+- 2026-11-25: Added DR Congo (DHS 2013-14 and 2023-24, both reported for the 26 post-2015 provinces). The lit threshold is recomputed with DR Congo's protected areas included, under the same rule. No models had been run when this change was made.
+
 ## Open decisions (to settle with advisors)
 
 1. **DHS reporting level per survey.** Kenya reports both former provinces and counties; we plan to use counties.

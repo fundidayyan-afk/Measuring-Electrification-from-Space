@@ -7,7 +7,7 @@ Advisors: Dr. Andrew Gard (primary), Dr. Sugata Banerji (technical)
 
 ## The question
 
-Researchers often use satellite images of light at night as a stand-in for electricity access. This project tests how well that works in Kenya, Tanzania, Uganda, and Rwanda by comparing VIIRS nighttime lights against household survey measures of access (DHS) and national estimates (World Bank), and maps the places where the satellite view overstates or understates access.
+Researchers often use satellite images of light at night as a stand-in for electricity access. This project tests how well that works in Kenya, Tanzania, Uganda, Rwanda, and the Democratic Republic of the Congo by comparing VIIRS nighttime lights against household survey measures of access (DHS) and national estimates (World Bank), and maps the places where the satellite view overstates or understates access.
 
 ![DHS survey regions used in the analysis](outputs/figures/study_regions.png)
 
