@@ -43,7 +43,7 @@ YEAR_START = 2013
 YEAR_END = 2024  # confirm the last year actually available in each source
 
 # Earliest DHS survey year we want (Kenya 2014 is the first planned survey)
-DHS_SURVEY_YEAR_START = 2014
+DHS_SURVEY_YEAR_START = 2013  # DRC 2013-14 DHS is the earliest survey (VIIRS starts 2013)
 
 # ---------------------------------------------------------------------------
 # Indicators
