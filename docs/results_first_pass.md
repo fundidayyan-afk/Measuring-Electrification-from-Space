@@ -49,7 +49,7 @@ Same leave-one-country-out test; hyperparameters tuned by leave-one-country-out 
 84 regions observed in two waves (Kenya 8 provinces, Tanzania 30 with Mbeya and Songwe recombined, Uganda 15, Rwanda 5, DR Congo 26), fixed first-wave boundaries.
 
 - With country effects, a 10-point rise in the share of people in lit pixels (EOG mask) goes with a 5.7-point rise in household access (wild cluster bootstrap p = 0.04, five clusters). Our threshold: 5.5 points (p = 0.05). Brightness changes do not predict access changes (p = 0.46).
-- Within-region changes are about 0.6 to 0.8 the size of the cross-sectional slope, so lights pick up real changes, not just fixed differences between places.
+- With country effects, the within-region slope (0.57 points per point of light) is about three-quarters of the cross-sectional slope (about 0.73), so lights pick up real changes over time, not only fixed differences between places.
 - Country contrasts: Rwanda's access rose 21 points while lit people rose only 5 (correlation of changes near zero across its 5 provinces); DR Congo's access rose 3 points with no change in lit people.
 
 ## Interactive map

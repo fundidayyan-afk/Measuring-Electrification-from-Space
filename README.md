@@ -57,7 +57,7 @@ paper/          Paper drafts
 - [x] Repository structure
 - [x] World Bank and DHS download scripts
 - [x] DHS region boundaries for all eight surveys (`src/download_boundaries.py`)
-- [ ] Harmonize boundaries across survey waves
+- [x] Harmonize boundaries across survey waves (fixed first-wave outlines; Tanzania's Mbeya and Songwe recombined)
 - [x] Earth Engine light measures, 2013-2025 (`notebooks/01_light_measures.ipynb`, results in `data/light/`)
 - [x] Merged analysis data: 208 region-surveys and 65 country-years (`src/build_analysis_data.py`)
 - [x] First pass of Models 1 and 2 and leave-one-country-out prediction (`docs/results_first_pass.md`)
