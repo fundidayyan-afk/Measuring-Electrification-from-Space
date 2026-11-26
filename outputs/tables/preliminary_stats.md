@@ -1,13 +1,15 @@
 # Preliminary data summary
 
 ## World Bank national series
-- Country-years with total access: 48
+- Country-years with total access: 60
 - Years covered: 2013 to 2024
 
 ## DHS surveys and regional units
 
 | iso3   | SurveyId   | SurveyType   | SurveyYearLabel   | CharacteristicCategory   |   n_units |   share_with_ci |   min_value |   max_value |
 |:-------|:-----------|:-------------|:------------------|:-------------------------|----------:|----------------:|------------:|------------:|
+| COD    | CD2023DHS  | DHS          | 2023-24           | Wealth quintile          |         5 |               0 |         0.2 |        90.3 |
+| COD    | CD2023DHS  | DHS          | 2023-24           | Region                   |        32 |               0 |         0.5 |        86.5 |
 | KEN    | KE2014DHS  | DHS          | 2014              | Wealth quintile          |         5 |               0 |         0.2 |        95.2 |
 | KEN    | KE2014DHS  | DHS          | 2014              | Region                   |         8 |               0 |        10.6 |        86.8 |
 | KEN    | KE2015MIS  | MIS          | 2015              | Region                   |         5 |               0 |        20.2 |        65.8 |
@@ -45,6 +47,7 @@
 
 | iso3   | SurveyYearLabel   |   year |   dhs_access |   access_total |   gap_pp |
 |:-------|:------------------|-------:|-------------:|---------------:|---------:|
+| COD    | 2023-24           |   2023 |         21.8 |           22.1 |     -0.3 |
 | KEN    | 2014              |   2014 |         36.0 |           36.0 |      0.0 |
 | KEN    | 2022              |   2022 |         57.8 |           76.0 |    -18.2 |
 | RWA    | 2014-15           |   2014 |         22.8 |           19.8 |      3.0 |
@@ -54,7 +57,7 @@
 | TZA    | 2022              |   2022 |         36.4 |           45.8 |     -9.4 |
 | UGA    | 2016              |   2016 |         28.6 |           26.7 |      1.9 |
 
-- Correlation: 0.963 (n = 7)
-- Mean gap (DHS minus World Bank): -3.9 percentage points
+- Correlation: 0.966 (n = 8)
+- Mean gap (DHS minus World Bank): -3.4 percentage points
 
 Note: DHS measures households and the World Bank measures population, so a small gap is expected even when both are correct.
