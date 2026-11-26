@@ -28,6 +28,7 @@ SURVEYS = [
     "TZ2015DHS", "TZ2022DHS",
     "UG2016DHS", "UG2024MIS",
     "RW2015DHS", "RW2019DHS",
+    "CD2013DHS", "CD2023DHS",
 ]
 
 DHS_API = "https://api.dhsprogram.com/rest/dhs/surveys"
