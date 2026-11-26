@@ -5,7 +5,7 @@ This file records decisions before we see results, so the paper can show which c
 ## Fixed in advance
 
 - Study countries: Kenya, Tanzania, Uganda, Rwanda.
-- Light data: VIIRS annual V2.2, `average_masked` band; 2012 partial composite excluded.
+- Light data: VIIRS annual composites, V2.1 for 2013-2021 and V2.2 for 2022 onward (Earth Engine splits them), `average_masked` band; 2012 partial composite excluded. Because the version changes between 2021 and 2022, we check for a jump in light at that seam before using annual changes across it.
 - Three light measures per unit-year: log(1 + mean radiance), lit land share, lit population share.
 - Lit-pixel threshold (fixed 2026-11-20, before any light data were pulled): take protected areas in the four countries with IUCN category Ia, Ib or II, area over 1,000 km², and less than 10% marine area (WDPA); keep VIIRS pixels there with zero WorldPop population; compute the 99th percentile of the `average` band for each year; the threshold is the highest of those yearly values. A pixel is lit if `average` exceeds it.
 - Robustness version of lit: the Earth Observation Group's own mask (`average_masked` > 0).
@@ -15,6 +15,7 @@ This file records decisions before we see results, so the paper can show which c
 ## Change log
 
 - 2026-11-25: Added DR Congo (DHS 2013-14 and 2023-24, both reported for the 26 post-2015 provinces). The lit threshold is recomputed with DR Congo's protected areas included, under the same rule. No models had been run when this change was made.
+- 2026-11-26: First full run used only V2.2 (2022-2025) by mistake; notebook now merges V2.1 and V2.2. Percentiles for the threshold now use fine histogram buckets (0.001 nW) because the default buckets rounded the 2022 values together.
 
 ## Open decisions (to settle with advisors)
 
