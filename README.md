@@ -58,7 +58,8 @@ paper/          Paper drafts
 - [x] World Bank and DHS download scripts
 - [x] DHS region boundaries for all eight surveys (`src/download_boundaries.py`)
 - [ ] Harmonize boundaries across survey waves
-- [ ] Earth Engine light measures
+- [x] Earth Engine light measures, 2013-2025 (`notebooks/01_light_measures.ipynb`, results in `data/light/`)
+- [x] Merged analysis data: 208 region-surveys and 65 country-years (`src/build_analysis_data.py`)
 - [ ] Models 1 to 3, prediction, robustness
 - [ ] Interactive map (GitHub Pages)
 - [ ] Paper
