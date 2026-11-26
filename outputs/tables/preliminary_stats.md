@@ -8,6 +8,8 @@
 
 | iso3   | SurveyId   | SurveyType   | SurveyYearLabel   | CharacteristicCategory   |   n_units |   share_with_ci |   min_value |   max_value |
 |:-------|:-----------|:-------------|:------------------|:-------------------------|----------:|----------------:|------------:|------------:|
+| COD    | CD2013DHS  | DHS          | 2013-14           | Wealth quintile          |         5 |               0 |         0   |        70.3 |
+| COD    | CD2013DHS  | DHS          | 2013-14           | Region                   |        32 |               0 |         0   |        90   |
 | COD    | CD2023DHS  | DHS          | 2023-24           | Wealth quintile          |         5 |               0 |         0.2 |        90.3 |
 | COD    | CD2023DHS  | DHS          | 2023-24           | Region                   |        32 |               0 |         0.5 |        86.5 |
 | KEN    | KE2014DHS  | DHS          | 2014              | Wealth quintile          |         5 |               0 |         0.2 |        95.2 |
@@ -18,6 +20,8 @@
 | KEN    | KE2020MIS  | MIS          | 2020              | Wealth quintile          |         5 |               0 |         5.4 |        98   |
 | KEN    | KE2022DHS  | DHS          | 2022              | Wealth quintile          |         5 |               0 |         2.8 |        99.4 |
 | KEN    | KE2022DHS  | DHS          | 2022              | Region                   |        54 |               0 |        16.3 |        94.5 |
+| RWA    | RW2013MIS  | MIS          | 2013              | Region                   |         5 |               0 |         5.7 |        64.4 |
+| RWA    | RW2013MIS  | MIS          | 2013              | Wealth quintile          |         5 |               0 |         0.2 |        66   |
 | RWA    | RW2015DHS  | DHS          | 2014-15           | Region                   |         5 |               0 |        10.8 |        70.7 |
 | RWA    | RW2015DHS  | DHS          | 2014-15           | Wealth quintile          |         5 |               0 |         1.1 |        80.3 |
 | RWA    | RW2017MIS  | MIS          | 2017              | Region                   |         5 |               0 |        17.4 |        79.8 |
@@ -47,6 +51,7 @@
 
 | iso3   | SurveyYearLabel   |   year |   dhs_access |   access_total |   gap_pp |
 |:-------|:------------------|-------:|-------------:|---------------:|---------:|
+| COD    | 2013-14           |   2013 |         13.5 |           15.2 |     -1.7 |
 | COD    | 2023-24           |   2023 |         21.8 |           22.1 |     -0.3 |
 | KEN    | 2014              |   2014 |         36.0 |           36.0 |      0.0 |
 | KEN    | 2022              |   2022 |         57.8 |           76.0 |    -18.2 |
@@ -57,7 +62,7 @@
 | TZA    | 2022              |   2022 |         36.4 |           45.8 |     -9.4 |
 | UGA    | 2016              |   2016 |         28.6 |           26.7 |      1.9 |
 
-- Correlation: 0.966 (n = 8)
-- Mean gap (DHS minus World Bank): -3.4 percentage points
+- Correlation: 0.966 (n = 9)
+- Mean gap (DHS minus World Bank): -3.3 percentage points
 
 Note: DHS measures households and the World Bank measures population, so a small gap is expected even when both are correct.
