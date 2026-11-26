@@ -29,6 +29,7 @@ COUNTRIES = {
     "TZA": {"dhs": "TZ", "name": "Tanzania"},
     "UGA": {"dhs": "UG", "name": "Uganda"},
     "RWA": {"dhs": "RW", "name": "Rwanda"},
+    "COD": {"dhs": "CD", "name": "DR Congo"},
 }
 ISO3 = list(COUNTRIES)
 DHS_CODES = [c["dhs"] for c in COUNTRIES.values()]
