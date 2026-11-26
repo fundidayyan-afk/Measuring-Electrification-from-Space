@@ -61,8 +61,10 @@ paper/          Paper drafts
 - [x] Earth Engine light measures, 2013-2025 (`notebooks/01_light_measures.ipynb`, results in `data/light/`)
 - [x] Merged analysis data: 208 region-surveys and 65 country-years (`src/build_analysis_data.py`)
 - [x] First pass of Models 1 and 2 and leave-one-country-out prediction (`docs/results_first_pass.md`)
-- [ ] Survey-error weighting, Model 3, machine-learning models, robustness
-- [ ] Interactive map (GitHub Pages)
+- [x] Machine-learning models with leave-one-country-out test (`src/ml_models.py`)
+- [x] Model 3 long differences, first pass (`src/model3_long_differences.py`)
+- [x] Interactive map: https://fundidayyan-afk.github.io/Measuring-Electrification-from-Space/
+- [ ] With DHS microdata: survey-error weights, Kenya 2014 counties, solar test, final models
 - [ ] Paper
 
 ## License

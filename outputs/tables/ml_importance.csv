@@ -1,0 +1,71 @@
+model,held_out,feature,mae_increase_pp
+Random forest,COD,People in lit pixels (EOG mask),2.0326645304335935
+Random forest,COD,People in lit pixels (our threshold),2.4040961488006296
+Random forest,COD,Land lit (EOG mask),0.5922990716349171
+Random forest,COD,Land lit (our threshold),0.7062802910533182
+Random forest,COD,Log brightness,1.631384108515417
+Random forest,COD,Log population per pixel,0.0541467293016816
+Random forest,COD,Cloud-free nights per pixel,-0.08813545053024027
+Gradient boosting,COD,People in lit pixels (EOG mask),2.005244725499973
+Gradient boosting,COD,People in lit pixels (our threshold),2.22747915602394
+Gradient boosting,COD,Land lit (EOG mask),0.19732823523022996
+Gradient boosting,COD,Land lit (our threshold),0.443849364683807
+Gradient boosting,COD,Log brightness,2.3052824627926505
+Gradient boosting,COD,Log population per pixel,-0.3020473468960132
+Gradient boosting,COD,Cloud-free nights per pixel,-0.12517471158665508
+Random forest,KEN,People in lit pixels (EOG mask),1.6667602733372682
+Random forest,KEN,People in lit pixels (our threshold),1.5459979245629811
+Random forest,KEN,Land lit (EOG mask),-0.12956675445934357
+Random forest,KEN,Land lit (our threshold),0.21194680121915488
+Random forest,KEN,Log brightness,0.8217131750273313
+Random forest,KEN,Log population per pixel,0.43334172569754087
+Random forest,KEN,Cloud-free nights per pixel,-0.12791092389227085
+Gradient boosting,KEN,People in lit pixels (EOG mask),2.754796015313172
+Gradient boosting,KEN,People in lit pixels (our threshold),2.222597982929381
+Gradient boosting,KEN,Land lit (EOG mask),1.001039999334006
+Gradient boosting,KEN,Land lit (our threshold),0.9038811417678903
+Gradient boosting,KEN,Log brightness,-0.061435841325979866
+Gradient boosting,KEN,Log population per pixel,0.5263801857517728
+Gradient boosting,KEN,Cloud-free nights per pixel,0.021552659944212987
+Random forest,RWA,People in lit pixels (EOG mask),4.1134852762478396
+Random forest,RWA,People in lit pixels (our threshold),2.179029201777861
+Random forest,RWA,Land lit (EOG mask),0.3789006762626255
+Random forest,RWA,Land lit (our threshold),1.5110064919636024
+Random forest,RWA,Log brightness,3.997917125367222
+Random forest,RWA,Log population per pixel,-0.04707273073963505
+Random forest,RWA,Cloud-free nights per pixel,0.22537202056276961
+Gradient boosting,RWA,People in lit pixels (EOG mask),1.1501355741517139
+Gradient boosting,RWA,People in lit pixels (our threshold),3.1752257881646213
+Gradient boosting,RWA,Land lit (EOG mask),0.6753252258404808
+Gradient boosting,RWA,Land lit (our threshold),0.5415529046293385
+Gradient boosting,RWA,Log brightness,2.538597844609427
+Gradient boosting,RWA,Log population per pixel,0.1933078341034799
+Gradient boosting,RWA,Cloud-free nights per pixel,0.8260175191250916
+Random forest,TZA,People in lit pixels (EOG mask),3.1828211038251326
+Random forest,TZA,People in lit pixels (our threshold),0.60809947034113
+Random forest,TZA,Land lit (EOG mask),1.0793662927782532
+Random forest,TZA,Land lit (our threshold),0.5491331822348828
+Random forest,TZA,Log brightness,2.6942455143678394
+Random forest,TZA,Log population per pixel,-0.017526019544511495
+Random forest,TZA,Cloud-free nights per pixel,0.37095802480639956
+Gradient boosting,TZA,People in lit pixels (EOG mask),3.2491482812078094
+Gradient boosting,TZA,People in lit pixels (our threshold),0.7987491983805648
+Gradient boosting,TZA,Land lit (EOG mask),1.339134082286727
+Gradient boosting,TZA,Land lit (our threshold),-0.0759873205548206
+Gradient boosting,TZA,Log brightness,3.491249343413614
+Gradient boosting,TZA,Log population per pixel,-0.09750005366822634
+Gradient boosting,TZA,Cloud-free nights per pixel,0.7514078530107404
+Random forest,UGA,People in lit pixels (EOG mask),3.9019875575144516
+Random forest,UGA,People in lit pixels (our threshold),1.150995841049998
+Random forest,UGA,Land lit (EOG mask),1.4520097262197693
+Random forest,UGA,Land lit (our threshold),0.591507889353245
+Random forest,UGA,Log brightness,1.84201117914647
+Random forest,UGA,Log population per pixel,0.20655685494782647
+Random forest,UGA,Cloud-free nights per pixel,0.08106836302339447
+Gradient boosting,UGA,People in lit pixels (EOG mask),1.938539840343699
+Gradient boosting,UGA,People in lit pixels (our threshold),1.7496318185406554
+Gradient boosting,UGA,Land lit (EOG mask),2.0473213937033554
+Gradient boosting,UGA,Land lit (our threshold),0.31465808737695267
+Gradient boosting,UGA,Log brightness,1.887091855776139
+Gradient boosting,UGA,Log population per pixel,0.5358965719089118
+Gradient boosting,UGA,Cloud-free nights per pixel,-0.0018890847152545909
