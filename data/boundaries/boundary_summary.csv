@@ -12,3 +12,6 @@ UG2024MIS,sdr_subnational_boundaries,15,1.0,Kampala; Buganda south; Buganda nort
 RW2015DHS,sdr_subnational_boundaries,5,1.0,kigali city; south; west; north; east
 RW2015DHS,sdr_subnational_boundaries2,30,2.0,bugesera; burera; gakenke; gasabo; gatsibo; gicumbi; gisagara; huye; kamonyi; karongi; kayonza; kicukiro; kirehe; muhanga; musanze; ngoma; ngororero; nyabihu; nyagatare; nyamagabe; nyamasheke; nyanza; nyarugenge; nyaruguru; rubavu; ruhango; rulindo; rusizi; rutsiro; rwamagana
 RW2019DHS,sdr_subnational_boundaries,5,1.0,Kigali; South; West; North; East
+CD2013DHS,sdr_subnational_boundaries,11,1.0,Bandundu; Bas-Congo; Equateur; Kasai-Occidental; Kasai-Oriental; Katanga; Kinshasa; Maniema; Nord-Kivu; Orientale; Sud-Kivu
+CD2013DHS,sdr_subnational_boundaries2,26,2.0,Kinshasa; Kwango; Kwilu; Mai-Ndombe; Kongo Central; Equateur; Mongala; Nord-Ubangi; Sud-Ubangi; Tshuapa; Kasai; Kasai-Central; Kasai-Oriental; Lomami; Sankuru; Haut-Katanga; Haut-Lomami; Lualaba; Tanganyka; Maniema; Nord-Kivu; Bas-Uele; Haut-Uele; Ituri; Tshopo; Sud-Kivu
+CD2023DHS,sdr_subnational_boundaries,26,1.0,Bas-Uele; Equateur; Haut-Katanga; Haut Lomami; Haut uele; Ituri; Kasaï; Kasaï Central; Kasaï Oriental; Kinshasa; Kongo Central; Kwango; Kwilu; Lomami; Lualaba; Mai-Ndombe; Mongala; Nord Ubangi; Sankuru; Sud Ubangi; Tanganika; Tshopo; Tshuapa; Maniema; Nord-Kivu; Sud-Kivu
