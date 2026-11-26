@@ -60,7 +60,8 @@ paper/          Paper drafts
 - [ ] Harmonize boundaries across survey waves
 - [x] Earth Engine light measures, 2013-2025 (`notebooks/01_light_measures.ipynb`, results in `data/light/`)
 - [x] Merged analysis data: 208 region-surveys and 65 country-years (`src/build_analysis_data.py`)
-- [ ] Models 1 to 3, prediction, robustness
+- [x] First pass of Models 1 and 2 and leave-one-country-out prediction (`docs/results_first_pass.md`)
+- [ ] Survey-error weighting, Model 3, machine-learning models, robustness
 - [ ] Interactive map (GitHub Pages)
 - [ ] Paper
 
